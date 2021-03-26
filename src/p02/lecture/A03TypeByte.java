@@ -24,7 +24,7 @@ public class A03TypeByte {
 		byte byteVar;
 		byteVar = -128;
 		byteVar = 127;
-		
+	
 //		byteVar = -129; // not ok
 //		byteVar = 128;  // not ok
 	}
