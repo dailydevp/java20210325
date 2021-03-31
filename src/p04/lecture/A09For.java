@@ -9,7 +9,7 @@ public class A09For {
 		//1번-->2번 - true ->코드블록 -->3번 --> 2번
 		//          - false->종료
 		
-		//     1번;2번;3 
+		//     1번;2번;3번 
 		for(int i=0;i<3;i++) {
 			//코드 블록
 			System.out.println("반복할 코드들...");

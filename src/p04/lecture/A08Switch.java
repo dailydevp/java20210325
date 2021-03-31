@@ -19,15 +19,17 @@ public class A08Switch {
 			System.out.println("케이스 3");
 //			break;
 		}
-	}
 	
-//	long l  = 3;
-//	switch (l) {
-//	case 3:
-//		System.out.println("long");
-//		break;
-//		
-//	dafault:
-//		break;
+	/*
+	long l  = 3;
+	switch (l) {
+	case 3:
+		System.out.println("long");
+		break;
+		
+	dafault:
+		break;
+	}
+	*/
 	}
 }
