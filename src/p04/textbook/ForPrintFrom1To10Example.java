@@ -29,7 +29,7 @@ public class ForPrintFrom1To10Example {
 	
 	// 1~10 홀수만
 	System.out.println("1~10 홀수만");
-	for (int i = 1; i <= 10; i += 2) {
+	for(int i = 1; i <= 10; i += 2) {
 		System.out.println(i);
 	}
 	// 1~10 짝수만
@@ -55,6 +55,7 @@ public class ForPrintFrom1To10Example {
 		System.out.println(i);
 		}
 	}
+}
 
 	
 
