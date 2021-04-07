@@ -1,7 +1,7 @@
 package p06.lecture.p4method;
 
 public class MyClass3 {
-int a;
+	int a;
 	
 	void method1() {
 		System.out.println("a: "+this.a);
