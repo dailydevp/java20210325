@@ -7,7 +7,7 @@ public class MyClass5 {
 		System.out.println("method1~~");
 	}
 	
-	//파라미터, 매개변
+	//파라미터, 매개변수
 	void method2(int a) {
 		System.out.println("method2!!");
 		System.out.println("param a:"+a);

@@ -12,7 +12,7 @@ public class A08ParameterNumberSample {
 		m = o1.max(99,77,100);
 		System.out.println();
 		
-		m = 01.max(new int[] {6,5,7,2,4});
+		m = o1.max(new int[] {6,5,7,2,4});
 		System.out.println(m);
 	}
 }

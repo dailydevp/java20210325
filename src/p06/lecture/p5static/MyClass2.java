@@ -17,6 +17,6 @@ public class MyClass2 {
 	
 	//instance method
 	void method1() {
-		System.out.println(method1());
+		System.out.println("method1()");
 	}
 }
