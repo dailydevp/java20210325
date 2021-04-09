@@ -1,6 +1,5 @@
 package p04.textbook.exercise;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Exercise07 {
@@ -8,6 +7,9 @@ public class Exercise07 {
 		
 		boolean run = true;
 		int balance = 0;
+		
+		int plus = 0;
+		int minus = 0;
 		
 		Scanner scanner = new Scanner(System.in);
 				
@@ -18,20 +20,28 @@ public class Exercise07 {
 			System.out.println("---------------------------------");
 			System.out.print("선택> ");
 			
-			
 			int value = scanner.nextInt();
-			do (value) {
-				System.out.println("예금액>");
-				int input = scanner.nextInt();
-				balance += input;
+			if(value ==1) {
+				value = scanner.nextInt();
+				balance += value;
+				System.out.println("예금액>"+balance);
+			}else if(value == 2) {
+				value = scanner.nextInt();
+				minus += value;
+				System.out.println("출금액>"+minus);
+			}else if(value ==3) {
+				
+				balance -= minus;
+				System.out.println("잔고>"+balance);
+			}else {
+				break;
 			}
-			
-			
-		
+
+			}
 					
 			System.out.println("프로그램 종료");
 			}
 		}
-}
+
 		
 	

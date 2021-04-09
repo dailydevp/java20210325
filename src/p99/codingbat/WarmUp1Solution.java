@@ -46,10 +46,29 @@ public class WarmUp1Solution {
 		public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
 			return aSmile == bSmile;
 		}
+		
+		/* 	내가푼방식
+		public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
+			  if( !aSmile ^ bSmile){
+			    return true;
+			  }else
+			   return false;
+			}
+		*/
+
 
 		public boolean sleepIn(boolean weekday, boolean vacation) {
 			return !weekday || vacation;
 		}
+		/* 내가 푼 방식
+		public boolean sleepIn(boolean weekday, boolean vacation) {
+			  if( !weekday || vacation ){
+			    return true;
+			  }
+			  
+			  return false;
+			}
+		*/
 
 		public String backAround(String str) {
 			String res = "";
@@ -60,6 +79,19 @@ public class WarmUp1Solution {
 
 			return res;
 		}
-
+		
+		public int sumDouble(int a, int b) {
+			return (a == b) ? (a + b) * 2 : (a + b);
+		}
+/*		내가 푼 방식
+		public int sumDouble(int a, int b) {
+		    int sum = 0;
+		    if(a!=b){
+		    return sum = a+b;
+		    }else{
+		      return sum = a*2+b*2;
+		    }
+		}
+*/
 	
 }
