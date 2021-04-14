@@ -1,7 +1,7 @@
 package p07.textbook.exercise.ex06;
 
 public class Child {
-	private Stirng name;
+	private String name;
 	
 	public Child() {
 		this("홍길동");
