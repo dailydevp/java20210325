@@ -1,13 +1,13 @@
-package p12.textbook.s120202;
+package p12.textbook.s120201;
 
-public class BeepPrintExample {
+public class BeepPrintExample2 {
 	public static void main(String[] args) {
-		Thread thread = new BeepThread();
+		Runnable beepTask = new BeepTask();
+		Thread thread = new Thread(beepTask);
 		thread.start();
 		
-		for(int i=0; i<5; i++) {
+		for(int i =0; i<5; i++) {
 			System.out.println("띵");
-			
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {
