@@ -1,7 +1,7 @@
 package p12.textbook.s120301;
 
-public class calcThread extends Thread {
-	public calcThread(String name) {
+public class CalcThread extends Thread {
+	public CalcThread(String name) {
 		super(name);
 	}
 	
