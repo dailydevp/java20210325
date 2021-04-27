@@ -25,11 +25,14 @@ public class WildCardExample {
 		personCourse.add(new Worker("직장인"));
 		personCourse.add(new Student("학생"));
 		personCourse.add(new HighStudent("고등학생"));
-		Course<Worker>workerCourese = new Course<Worker>("직장인과정", 5);
+		
+		Course<Worker>workerCourse = new Course<Worker>("직장인과정", 5);
 			workerCourse.add(new Worker("직장인"));
+			
 		Course<Student> studentCourse = new  Course<Student>("학생과정",5);
 			studentCourse.add(new Student("학생"));
 			studentCourse.add(new HighStudent("고등학생"));
+			
 		Course<HighStudent> highStudentCourse =
 				new Course<HighStudent>("고등학생과정",5);
 				highStudentCourse.add(new HighStudent("고등학생"));
