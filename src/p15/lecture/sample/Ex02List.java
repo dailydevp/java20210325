@@ -12,23 +12,16 @@ public class Ex02List {
 		List<Integer> merge1 = merge1(list1, list2);
 		System.out.println(merge1);
 		
-		List<Integer> merge2 = merge1(list1, list2);
+		List<Integer> merge2 = merge2(list1, list2);
 		System.out.println(merge2);
-	}
 
-	private static List<Integer> merge1(List<Integer> list1, List<Integer> list2) {
-		List<Integer>merge = new ArrayList<>();
-		for(int i = 0; i<list1.size();i++) {
-				merge.add(list1.get(i));
-				merge.add(list2.get(i));
-			}
+	}
 		
-		return merge;
-		}
-	
+
 	private static List<Integer> merge2(List<Integer> list1, List<Integer> list2) {
-		List<Integer>list = new ArrayList<>();
-		for(int i = 0; i<list1.size();i++) {
+		List<Integer> list = new ArrayList<>();
+		
+		for(int i = 0; i < list1.size(); i++) {
 			int e1 = list1.get(i);
 			int e2 = list2.get(i);
 			
@@ -39,11 +32,20 @@ public class Ex02List {
 			if(!list.contains(e2)) {
 				list.add(e2);
 			}
-			
 		}
 		return list;
-
-		}
 	}
+	
+
+	private static List<Integer> merge1(List<Integer> list1, List<Integer> list2) {
+		List<Integer>merge = new ArrayList<>();
+		for(int i = 0; i<list1.size();i++) {
+				merge.add(list1.get(i));
+				merge.add(list2.get(i));
+			}
+		return merge;
+		}	
+}
+	
 
 
