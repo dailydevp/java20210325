@@ -21,7 +21,7 @@ public class Student {
 	
 	@Override
 	public boolean equals(Object obj) {
-	/*
+	
 		if(this == obj)
 			return true;
 		if(obj == null)
@@ -32,14 +32,14 @@ public class Student {
 		if(studentNum != other.studentNum)
 			return false;
 		return true;
-		*/
-	
+		
+	/*
 		if(obj instanceof Student) {
 			Student student = (Student) obj;
 			return (studentNum == student.studentNum) && (name.equals(student.name));
 	}else {
 		return false;
-	
+	*/
 	
 	}
 }
